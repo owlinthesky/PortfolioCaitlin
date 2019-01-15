@@ -3,25 +3,26 @@
 <title>Caitlin Madin Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css.CSS">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
+
 <style>
     body, h1, h2, h3, h4, h5, h6 {
-        
+
         font-family: 'Lora', serif;
     }
 
     span{
     color: purple;
     }
-    .w3-row-padding img {
+    .row-padding img {
         margin-bottom: 12px
     }
     /* Set the width of the sidebar to 120px */
-    .w3-sidebar {
+    .sidebar {
         width: 120px;
         background: #222;
     }
@@ -37,105 +38,123 @@
     }
 </style>
 <html>
-<body class="w3-black">
+<body class="black">
 
     <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <nav class="sidebar bar-block small hide-small center sidbar collapse">
         <!-- Avatar image in top left corner -->
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-            <i class="fa fa-home w3-xxlarge"></i>
+        <a href="#" class="bar-item button padding-large black">
+            <i class="fa fa-home xxlarge"></i>
             <p>HOME</p>
         </a>
-        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-user w3-xxlarge"></i>
+        <a href="#about" class="bar-item button padding-large hover-black">
+            <i class="fa fa-user xxlarge"></i>
             <p>ABOUT</p>
         </a>
-        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-eye w3-xxlarge"></i>
-            <p>Projects</p>
+        <a href="#photos" class="bar-item button padding-large hover-black">
+            <i class="fa fa-eye xxlarge"></i>
+            <p>PROJECTS</p>
         </a>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-envelope w3-xxlarge"></i>
+        <a href="#contact" class="bar-item button padding-large hover-black">
+            <i class="fa fa-envelope xxlarge"></i>
             <p>CONTACT</p>
         </a>
     </nav>
 
     <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <div class="top hide-large hide-medium" id="myNavbar">
+        <div class="bar black opacity hover-opacity-off center small">
+            <a href="#" class="bar-item button" style="width:25% !important">HOME</a>
+            <a href="#about" class="bar-item button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="bar-item button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="bar-item button" style="width:25% !important">CONTACT</a>
         </div>
     </div>
 
     <!-- Page Content -->
-    <div class="w3-padding-large" id="main">
+    <div class="padding-large" id="main">
         <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <header class="container padding-32 center black" id="home">
 
 
 
 
 
-            <img src="background.png" alt="Water" class="w3-image" width="650" height="650">
+            <img src="background.png" alt="Water" class="image" width="650" height="650">
         </header>
 
 
         <!-- About Section -->
-        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-         
-            <hr style="width:200px" class="w3-opacity">
+        <div class="content justify text-grey padding-64" id="about">
+
+            <hr style="width:200px" class="opacity">
             <h3> I'm classed as a MATURE student at the age of 27, how depressing. 27 and your already old.... </h3>
-            <p> I decided to better my self by getting a degree within computer science so i was also to get a job that i could progress in.</p>
-            <p>I've always been keen on education, i enjoy learning new skills even if this can come difficult to me due to my dxlyexia. </p>
-            <p> Ive worked most of life either in retail or within my cureent job as a support worker for people with disabilites</p>
-            <p>I'm not just a mature student but im also a wife and a mother of two beautful girls. I'm a proud mummy of my beautiful girls, but i want to show them that i you can achieve what you want if you put your mind to it.</p>
+            <p>I decided to better myself by getting a degree within computer science, this was to enable me to get a job that I could progress in. </p>
+            <p>  I've always been keen on education, and i enjoy learning new skills even if this can come difficult to me due to my dyslexia.</p>
+            <p>I’ve worked most of life either in retail or within my current job as a support worker for people with disabilities,</p>
+          <p> but I crave to be part of an innovation to build a better and a more connected society through technology. </p>
+            <p>I'm not just a mature student, but I’m also a wife and a mother of two beautiful girls. I'm a proud mummy of my beautiful girls,
+               but I want to show them that you can achieve what you want if you put your mind to it.</p>
             <p>
-                In this male dominated industry, i want to be one of the up and comming women to be taken seriously and to be given the chance to tailor my skills to the correct industry. I have many interest within the technolgy industry with my heart laying in cyber sercuity. Someone said to the 'you are only just starting within your career of technolgy dont tie yourself down within a sector you focuse on, embrace them all' and i intend to this
-                <h3 class="w3-padding-16 w3-text-light-grey">My Degree Modules</h3>
-            <p class="w3-wide">Photography</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+              In this male dominated industry, I want to be one of the up and coming women to be taken seriously and to be given the chance to tailor my skills to the correct industry. I have many interests within the technology
+               industry with my heart laying in cyber security. Someone said to me 'you are only just starting within your career of technology don’t tie yourself down within a sector, but rather embrace them all' and I intend to do this.
+                <h3 class="padding-16 text-light-grey">My Degree Modules</h3>
+            <p class="wide">Web Design</p>
+            <div class="white">
+                <div class="dark-grey" style="height:28px;width:69%"></div>
             </div>
-            <p class="w3-wide">Web Design</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:69%"></div>
-            </div>
-            <p class="w3-wide">Problem Solving</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:81%"></div>
+            <p class="wide">Problem Solving</p>
+            <div class="white">
+                <div class="dark-grey" style="height:28px;width:81%"></div>
             </div><br>
 
-            <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">81+</span><br>
+            <div class="row center padding-16 section light-grey">
+                <div class="quarter section">
+                    <span class="xlarge">81+</span><br>
                     MTA
                 </div>
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">81+</span><br>
-                   Group Projects 
+                <div class="quarter section">
+                    <span class="xlarge">81+</span><br>
+                   Group Projects
                 </div>
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">69+</span><br>
+                <div class="quarter section">
+                    <span class="xlarge">69+</span><br>
                     Programming
                 </div>
-                <div class="w3-quarter w3-section">
-                    <span class="w3-xlarge">67+</span><br>
+                <div class="quarter section">
+                    <span class="xlarge">67+</span><br>
                    Computing in Maths
                 </div>
             </div>
+  <h3 class="padding-16 text-light-grey">Education</h3>
+  <div>
+            <p class="wide">Photography</p>
+            <div class="white">
+                <div class="dark-grey" style="height:28px;width:100%"></div>
+            </div>
 
-            <button class="w3-button w3-light-grey w3-padding-large w3-section">
+            <button class="button light-grey padding-large section">
                 <i class="fa fa-download"></i> Download CV
+                <a href="/Assests/Caitlin_Madin_CV.pdf" download="Caitlin_Madin_CV"> </a>
             </button>
 
 
         <!-- Portfolio Section -->
-        <div class="w3-padding-64 w3-content" id="photos">
-            <h2 class="w3-text-light-grey">My Projects</h2>
-            <hr style="width:200px" class="w3-opacity">
+        <div class="padding-64 content" id="photos">
+            <h2 class="text-light-grey">My Projects</h2>
+            <h3 class="text-light-grey"> Smart Mirror</h3>
+            <p>My project for 2019 is making a smart mirror which is basically a mirror with a screen behind it.
+               That screen can be an Android tablet or a computer monitor but i will be using a computer monitor which will be powered by a Raspberry PI.
+          </p>
+          <h3 class="text-light-grey">Code Club</h3>
+          <p> I'm looking to start volunteer at the code club within lincoln after my training. This is to involve giving children ages 9-13years old the opportunity to learn code,
+   no matter who they are or where they come from. This will involve:<p>
+          <ul>Commit to a minimum of 12 weeks</ul>
+<ul> Help around 15 young people aged 9-13 to use the Code Club projects</ul>
+<ul> Volunteer solo, or team up with friends or colleagues and take turns</ul>
+
+        </p>
+            <hr style="width:200px" class="opacity">
 
             <!-- Grid for photos -->
             <!--<div class="w3-row-padding" style="margin:0 -16px">
@@ -159,24 +178,24 @@
     -->
 
     <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <h2 class="w3-text-light-grey">Contact Me</h2>
-        <hr style="width:200px" class="w3-opacity">
+    <div class="padding-64 content text-grey" id="contact">
+        <h2 class="text-light-grey">Contact Me</h2>
+        <hr style="width:200px" class="opacity">
 
-        <div class="w3-section">
-            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Lincoln, Uk</p>
-            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 07976829230 </p>
-            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: cmadin18@outlook.com</p>
+        <div class="section">
+            <p><i class="fa fa-map-marker fa-fw text-white xxlarge margin-right"></i>Lincoln, Uk</p>
+            <p><i class="fa fa-phone fa-fw text-white xxlarge margin-right"></i> Phone: 07976829230 </p>
+            <p><i class="fa fa-envelope fa-fw text-white xxlarge margin-right"> </i> Email: cmadin18@outlook.com</p>
         </div><br>
         <p>Please  get in touch. if you have any questions :</p>
 
         <form action="/action_page.php" target="_blank">
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+            <p><input class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="input padding-16" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="input padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="input padding-16" type="text" placeholder="Message" required name="Message"></p>
             <p>
-                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                <button class="button light-grey padding-large" type="submit">
                     <i class="fa fa-paper-plane"></i> SEND MESSAGE
                 </button>
             </p>
@@ -185,8 +204,8 @@
     </div>
 
     <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <footer class="content padding-64 text-grey xlarge">
+        <i class="fa fa-linkedin hover-opacity"></i>
 
         <!-- End footer -->
     </footer>
